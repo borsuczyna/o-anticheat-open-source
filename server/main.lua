@@ -1,4 +1,4 @@
-function initAnticheat()
+fserfunction initAnticheat()
     outputAnticheatLog('Starting anticheat...')
     outputAnticheatLog('Checking permissions...')
     local success = checkPermissions()
@@ -26,7 +26,6 @@ function initAnticheat()
     initLuaExecutorTests()
     initMassElementDataChangerTests()
     initResourcesGuard()
-    initSerialSpooferTests()
     initAimbotTests()
 
     outputAnticheatLog('Anticheat started!', true)
