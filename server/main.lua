@@ -1,4 +1,4 @@
-fserfunction initAnticheat()
+function initAnticheat()
     outputAnticheatLog('Starting anticheat...')
     outputAnticheatLog('Checking permissions...')
     local success = checkPermissions()
