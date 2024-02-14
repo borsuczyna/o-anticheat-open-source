@@ -30,3 +30,5 @@ function initAnticheat()
 
     outputAnticheatLog('Anticheat started!', true)
 end
+
+initAnticheat()
